@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="socket.io.js"></script>
+<script>
+    var socket = io.connect('http://1.33.191.240:3000');
+    socket.on('count_report', function (count) {
+        $('#testarea').text(count);
+    });
+</script>
+</head>
+<body>
+<span id="testarea"></span>
+</body>
+</html>

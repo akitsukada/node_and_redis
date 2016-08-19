@@ -1,0 +1,19 @@
+[user]
+	name = akitsukada
+	email = tsukada.akihiro@gmail.com
+[color]
+	ui = auto
+[core]
+	editor = vim
+	quotepath = false
+  pager = less -r
+  ecxludesfile = ~/.gitignore
+	excludesfile = /Users/akitsukada/.gitignore
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ls = ls-files
+	glog = log --pretty=format:\"%C(red)%h%Creset %C(cyan)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset\" --abbrev-commit --date=relative --graph
+[http]
+    sslVerify = false
